@@ -18,6 +18,8 @@
 - Downloaded images into `risbergetvaalerfinnskog.com/downloaded-images/`.
 - Verified downloaded images against the HTML references.
 - Recovered missing local asset `onewebstatic/11712492fd.png`.
+- Rewrote downloaded `https://impro.usercontent.one/...` image references in HTML to local files under `downloaded-images/`.
+- Moved social sharing widgets, social metadata, and the local share-widget script into `social-widgets/` with a restore helper.
 
 ## Image Download Results
 
@@ -35,16 +37,15 @@ These appear to be small website-builder/theme background assets, not primary co
 
 ## Known Issues
 
-- The HTML still references external `https://impro.usercontent.one/...` image URLs.
-- Some social/share/widget scripts still reference external services such as Facebook, Twitter, LinkedIn, Google Docs, and One.com services.
+- The HTML still references external `https://impro.usercontent.one/...` URLs only for the two missing 404 builder images.
+- Normal content links may still point to external services, but active social sharing widgets and social metadata have been archived in `social-widgets/`.
 
 ## Next Steps
 
-1. Decide whether to keep or remove social sharing widgets and external embeds.
+1. Decide whether to keep or remove other external embeds/content links.
 2. Add placeholders or remove references for the two missing builder images.
-3. Rewrite HTML image references from `https://impro.usercontent.one/...` to local files under `downloaded-images/`.
-4. Test the site locally with a static server.
-5. Create a clean deploy folder containing only needed HTML, `onewebstatic/`, downloaded images, and any required support files.
+3. Test the site locally with a static server.
+4. Create a clean deploy folder containing only needed HTML, `onewebstatic/`, downloaded images, and any required support files.
 
 ## Useful Commands
 

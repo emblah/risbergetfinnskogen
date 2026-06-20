@@ -1,0 +1,530 @@
+{
+  "created_at": "2026-06-20T23:38:17",
+  "description": "Archived social sharing widgets and local share-widget script removed from the static site.",
+  "removed_html_widgets": [
+    {
+      "file": "118111326.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111326.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111329.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111329.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111330/118111331.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111330__118111331.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111330/index.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111330__index.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111332.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111332.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111333/118111334.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111333__118111334.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111333/118111335.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111333__118111335.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111333/index.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111333__index.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111336.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111336.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111339.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111339.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111340.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111340.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111341/118111349.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111341__118111349.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111341/index.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111341__index.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111342/118111343.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111342__118111343.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111342/118111345.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111342__118111345.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111342/118111346.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111342__118111346.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111342/118111347.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111342__118111347.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111342/index.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111342__index.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111348.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111348.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111353.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111353.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111355.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111355.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111356/118111327.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111356__118111327.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111356/118111357.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111356__118111357.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111356/118111363.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111356__118111363.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111356/452443065.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111356__452443065.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111356/index.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111356__index.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111364.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111364.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "118111365.html",
+      "count": 1,
+      "snippets": [
+        "snippets/118111365.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "450359384.html",
+      "count": 1,
+      "snippets": [
+        "snippets/450359384.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "451549850.html",
+      "count": 1,
+      "snippets": [
+        "snippets/451549850.html__widget-1.html"
+      ]
+    },
+    {
+      "file": "453232083.html",
+      "count": 1,
+      "snippets": [
+        "snippets/453232083.html__widget-1.html"
+      ]
+    }
+  ],
+  "moved_assets": [
+    {
+      "from": "risbergetvaalerfinnskog.com/onewebstatic/2f4cfda0cb.js",
+      "to": "social-widgets/onewebstatic/2f4cfda0cb.js"
+    }
+  ],
+  "restore": "Run ./restore-social-widgets.py from this directory to restore archived widgets/assets.",
+  "corrected_non_social_layout_rows": [
+    {
+      "file": "118111326.html",
+      "snippet": "snippets/118111326.html__widget-1.html"
+    },
+    {
+      "file": "118111330/118111331.html",
+      "snippet": "snippets/118111330__118111331.html__widget-1.html"
+    },
+    {
+      "file": "118111330/index.html",
+      "snippet": "snippets/118111330__index.html__widget-1.html"
+    },
+    {
+      "file": "118111333/index.html",
+      "snippet": "snippets/118111333__index.html__widget-1.html"
+    },
+    {
+      "file": "118111340.html",
+      "snippet": "snippets/118111340.html__widget-1.html"
+    },
+    {
+      "file": "118111341/118111349.html",
+      "snippet": "snippets/118111341__118111349.html__widget-1.html"
+    },
+    {
+      "file": "118111341/index.html",
+      "snippet": "snippets/118111341__index.html__widget-1.html"
+    },
+    {
+      "file": "118111342/118111343.html",
+      "snippet": "snippets/118111342__118111343.html__widget-1.html"
+    },
+    {
+      "file": "118111342/118111345.html",
+      "snippet": "snippets/118111342__118111345.html__widget-1.html"
+    },
+    {
+      "file": "118111342/118111347.html",
+      "snippet": "snippets/118111342__118111347.html__widget-1.html"
+    },
+    {
+      "file": "118111342/index.html",
+      "snippet": "snippets/118111342__index.html__widget-1.html"
+    },
+    {
+      "file": "118111355.html",
+      "snippet": "snippets/118111355.html__widget-1.html"
+    },
+    {
+      "file": "118111356/118111327.html",
+      "snippet": "snippets/118111356__118111327.html__widget-1.html"
+    },
+    {
+      "file": "451549850.html",
+      "snippet": "snippets/451549850.html__widget-1.html"
+    }
+  ],
+  "removed_social_meta": [
+    {
+      "file": "118111326.html",
+      "meta": "meta/118111326.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111329.html",
+      "meta": "meta/118111329.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111330/118111331.html",
+      "meta": "meta/118111330__118111331.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111330/index.html",
+      "meta": "meta/118111330__index.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111332.html",
+      "meta": "meta/118111332.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111333/118111334.html",
+      "meta": "meta/118111333__118111334.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111333/118111335.html",
+      "meta": "meta/118111333__118111335.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111333/index.html",
+      "meta": "meta/118111333__index.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111336.html",
+      "meta": "meta/118111336.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111337.html",
+      "meta": "meta/118111337.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111338.html",
+      "meta": "meta/118111338.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111339.html",
+      "meta": "meta/118111339.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111340.html",
+      "meta": "meta/118111340.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111341/118111349.html",
+      "meta": "meta/118111341__118111349.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111341/index.html",
+      "meta": "meta/118111341__index.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111342/118111343.html",
+      "meta": "meta/118111342__118111343.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111342/118111345.html",
+      "meta": "meta/118111342__118111345.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111342/118111346.html",
+      "meta": "meta/118111342__118111346.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111342/118111347.html",
+      "meta": "meta/118111342__118111347.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111342/index.html",
+      "meta": "meta/118111342__index.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111348.html",
+      "meta": "meta/118111348.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111353.html",
+      "meta": "meta/118111353.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111355.html",
+      "meta": "meta/118111355.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/118111327.html",
+      "meta": "meta/118111356__118111327.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/118111357.html",
+      "meta": "meta/118111356__118111357.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/118111363.html",
+      "meta": "meta/118111356__118111363.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/452443065.html",
+      "meta": "meta/118111356__452443065.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/index.html",
+      "meta": "meta/118111356__index.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/r-2024.html",
+      "meta": "meta/118111356__r-2024.html.social-meta.html",
+      "count": 7,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/r-2025.html",
+      "meta": "meta/118111356__r-2025.html.social-meta.html",
+      "count": 7,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/r..2022.html",
+      "meta": "meta/118111356__r..2022.html.social-meta.html",
+      "count": 7,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111356/r..2023-1.html",
+      "meta": "meta/118111356__r..2023-1.html.social-meta.html",
+      "count": 7,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111364.html",
+      "meta": "meta/118111364.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "118111365.html",
+      "meta": "meta/118111365.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "450359384.html",
+      "meta": "meta/450359384.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "451549850.html",
+      "meta": "meta/451549850.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "453232083.html",
+      "meta": "meta/453232083.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "dendrokronologi.html",
+      "meta": "meta/dendrokronologi.html.social-meta.html",
+      "count": 7,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "index.html",
+      "meta": "meta/index.html.social-meta.html",
+      "count": 9,
+      "html_prefix_removed": true
+    },
+    {
+      "file": "rringdatering.html",
+      "meta": "meta/rringdatering.html.social-meta.html",
+      "count": 7,
+      "html_prefix_removed": true
+    }
+  ]
+}
