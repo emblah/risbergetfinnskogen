@@ -8,7 +8,7 @@
 - All `40` HTML files are reachable from `index.html`.
 - No broken internal HTML links were found.
 - Local builder assets are in `risbergetvaalerfinnskog.com/onewebstatic/`.
-- `onewebstatic/` contains `53` files: CSS, JS, PNG, SVG, and WOFF2 assets.
+- `onewebstatic/` contains `50` files: CSS, JS, PNG, SVG, and WOFF2 assets.
 
 ## Completed
 
@@ -20,6 +20,8 @@
 - Recovered missing local asset `onewebstatic/11712492fd.png`.
 - Rewrote downloaded `https://impro.usercontent.one/...` image references in HTML to local files under `downloaded-images/`.
 - Moved social sharing widgets, social metadata, and the local share-widget script into `social-widgets/` with a restore helper.
+- Moved One.com form mail JavaScript out of `risbergetvaalerfinnskog.com/onewebstatic/` into top-level `form-mail/` with a restore helper.
+- Replaced the visible contact form on `118111338.html` with a `mailto:` link and commented out the archived form markup.
 
 ## Image Download Results
 
@@ -39,6 +41,7 @@ These appear to be small website-builder/theme background assets, not primary co
 
 - The HTML still references external `https://impro.usercontent.one/...` URLs only for the two missing 404 builder images.
 - Normal content links may still point to external services, but active social sharing widgets and social metadata have been archived in `social-widgets/`.
+- The contact page (`118111338.html`) now links to `mailto:contact-form@risbergetvaalerfinnskog.com`; the original One.com form markup is commented out, and the One.com form mail scripts are archived outside the site in top-level `form-mail/`.
 
 ## Next Steps
 
