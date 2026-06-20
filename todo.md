@@ -42,6 +42,9 @@ These appear to be small website-builder/theme background assets, not primary co
 - The HTML still references external `https://impro.usercontent.one/...` URLs only for the two missing 404 builder images.
 - Normal content links may still point to external services, but active social sharing widgets and social metadata have been archived in `social-widgets/`.
 - The contact page (`118111338.html`) now links to `mailto:contact-form@risbergetvaalerfinnskog.com`; the original One.com form markup is commented out, and the One.com form mail scripts are archived outside the site in top-level `form-mail/`.
+- Multiple pages (for example 118111341/index.html) - comment section is bumped way below the content. 
+- 118111342/index.html - missing text "Bilder fra Risberget og omegn. Vinter, vår, sommer og høst..."
+- 118111336.html - image squeezed
 
 ## Next Steps
 
