@@ -11,7 +11,8 @@ from urllib.parse import unquote, urlparse
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SITE_ROOT = PROJECT_ROOT / "_site"
+SITE_ROOT = PROJECT_ROOT / "docs"
+PATH_PREFIX = "/risbergetfinnskogen"
 
 
 class DocumentParser(HTMLParser):
@@ -51,6 +52,10 @@ def target_path(source: Path, reference: str) -> Path | None:
     if not path:
         return None
     if path.startswith("/"):
+        if path == PATH_PREFIX:
+            path = "/"
+        elif path.startswith(f"{PATH_PREFIX}/"):
+            path = path.removeprefix(PATH_PREFIX)
         target = SITE_ROOT / path.removeprefix("/")
     else:
         target = source.parent / path
@@ -61,7 +66,7 @@ def target_path(source: Path, reference: str) -> Path | None:
 
 def main() -> int:
     if not SITE_ROOT.exists():
-        print("Missing _site. Run npm run build first.", file=sys.stderr)
+        print("Missing docs. Run npm run build first.", file=sys.stderr)
         return 1
 
     errors: list[str] = []
@@ -94,4 +99,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

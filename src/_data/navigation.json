@@ -54,7 +54,7 @@
         "url": "/historie/minnepark/"
       },
       {
-        "label": "Arbeider’n",
+        "label": "Arbeider'n",
         "url": "/historie/arbeidern/"
       },
       {
@@ -68,8 +68,8 @@
     "url": "/kirken/",
     "children": [
       {
-        "label": "Kirkesalen",
-        "url": "/kirken/kirkesal/"
+        "label": "Altertavla",
+        "url": "/kirken/altertavle/"
       },
       {
         "label": "Seremonirommet",

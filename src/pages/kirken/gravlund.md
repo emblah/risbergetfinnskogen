@@ -36,4 +36,3 @@ i Savolax i Finland og er stemt i G, det samme som klokka på kirken.
 </figure>
 
 <p class="source-note">Copyright © 2015 Risberget kulturhistoriske forening</p>
-
