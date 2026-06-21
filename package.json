@@ -1,0 +1,14 @@
+{
+  "name": "risbergetfinnskogen.no",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "check": "python3 scripts/check-site.py"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6"
+  }
+}
