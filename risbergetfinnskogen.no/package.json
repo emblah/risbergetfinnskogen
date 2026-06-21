@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "eleventy --serve",
+    "start": "eleventy --serve",
     "build": "eleventy",
     "inventory": "python3 scripts/build-inventory.py",
     "check": "python3 scripts/check-site.py"

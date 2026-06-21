@@ -21,7 +21,6 @@ if (lightboxLinks.length && typeof HTMLDialogElement !== "undefined") {
       <button class="lightbox-previous" type="button" aria-label="Forrige bilde">←</button>
       <figure>
         <img class="lightbox-image" alt="">
-        <figcaption class="lightbox-caption"></figcaption>
       </figure>
       <button class="lightbox-next" type="button" aria-label="Neste bilde">→</button>
     </div>
@@ -29,7 +28,6 @@ if (lightboxLinks.length && typeof HTMLDialogElement !== "undefined") {
   document.body.append(dialog);
 
   const image = dialog.querySelector(".lightbox-image");
-  const caption = dialog.querySelector(".lightbox-caption");
   const closeButton = dialog.querySelector(".lightbox-close");
   const previousButton = dialog.querySelector(".lightbox-previous");
   const nextButton = dialog.querySelector(".lightbox-next");
@@ -45,8 +43,12 @@ if (lightboxLinks.length && typeof HTMLDialogElement !== "undefined") {
 
     image.src = link.href;
     image.alt = thumbnail?.alt || "";
-    caption.textContent = figureCaption?.textContent.trim() || image.alt;
-    caption.hidden = !caption.textContent;
+    const title = figureCaption?.textContent.trim() || image.alt;
+    if (title) {
+      image.title = title;
+    } else {
+      image.removeAttribute("title");
+    }
 
     const hasMultipleImages = activeLinks.length > 1;
     previousButton.hidden = !hasMultipleImages;

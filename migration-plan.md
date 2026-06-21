@@ -139,7 +139,7 @@ Deliverables:
 ```json
 {
   "scripts": {
-    "dev": "eleventy --serve",
+    "start": "eleventy --serve",
     "build": "eleventy"
   }
 }
@@ -154,7 +154,7 @@ Deliverables:
 - A reproducible static production build.
 - A minimal dependency tree.
 
-## Phase 3: Build the Shared Design System — Mostly Complete
+## Phase 3: Build the Shared Design System — Complete
 
 1. Establish design tokens for:
    - Colors.
@@ -181,11 +181,6 @@ Deliverables:
 - Approved homepage and standard-page templates.
 - Reusable components for all known content types.
 - A responsive CSS foundation without a CSS framework.
-
-Remaining:
-
-- Complete visual testing at phone, tablet, and desktop widths.
-- Complete manual keyboard and screen-reader testing of the lightbox.
 
 ## Phase 4: Prepare Images and Static Assets — In Progress
 
@@ -230,7 +225,6 @@ Current status:
 
 Remaining:
 
-- Review whether responsive variants justify adding `@11ty/eleventy-img`.
 - Audit alternative text and captions across the complete image library.
 
 ## Phase 5: Migrate Content — Complete
