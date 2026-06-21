@@ -27,7 +27,7 @@ npm run build
 The generated static site is written to `docs/` with the
 `/risbergetfinnskogen/` path prefix required by GitHub Pages.
 
-The /docs directory is hosted on GitHub Pages.
+The /docs directory is hosted on GitHub Pages at https://emblah.github.io/risbergetfinnskogen/.
 
 ## Content migration
 
