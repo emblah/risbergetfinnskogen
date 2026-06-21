@@ -1,4 +1,7 @@
+import { HtmlBasePlugin } from "@11ty/eleventy";
+
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   return {
@@ -12,4 +15,3 @@ export default function (eleventyConfig) {
     markdownTemplateEngine: "njk"
   };
 }
-

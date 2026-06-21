@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy --pathprefix=risbergetfinnskogen",
     "check": "python3 scripts/check-site.py"
   },
   "devDependencies": {

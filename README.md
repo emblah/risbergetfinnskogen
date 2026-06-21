@@ -13,7 +13,7 @@ of this project.
 
 ```sh
 npm install
-npm run dev
+npm start
 ```
 
 Eleventy serves the site at `http://localhost:8080/`.
@@ -21,11 +21,13 @@ Eleventy serves the site at `http://localhost:8080/`.
 ## Production build
 
 ```sh
-npm ci
 npm run build
 ```
 
-The generated static site is written to `_site/`.
+The generated static site is written to `docs/` with the
+`/risbergetfinnskogen/` path prefix required by GitHub Pages.
+
+The /docs directory is hosted on GitHub Pages.
 
 ## Content migration
 
@@ -36,4 +38,3 @@ The generated static site is written to `_site/`.
 - Old-to-new URL decisions are recorded in `src/_data/redirects.json`.
 - Unresolved source-content problems are recorded in
   `docs/editorial-issues.md`.
-
