@@ -1,8 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Årringdatering av bygninger
+title: Årringdatering av bygninger i Risberget
 description: Prosjektet for dendrokronologisk datering av eldre tømmerbygninger i Risberget.
-introduction: Risberget kulturhistoriske forening startet et prosjekt for å datere de eldste tømmerbygningene i grenda.
 permalink: /historie/arringdatering/
 breadcrumbs:
   - label: Historie og kultur
@@ -10,43 +9,38 @@ breadcrumbs:
   - label: Årringdatering
 ---
 
-Prosjektet ble planlagt sammen med Bo Hansson fra Tørberget. Utvalget av
-bygninger tok utgangspunkt i kommunens SEFRAK-registrering fra 1991. Omkring
-40 bygninger registrert som eldre enn 1850 kunne være aktuelle.
+**Risberget Kulturhistoriske forening planlegger, sammen med Bo Hansson fra Tørberget, å årringdatere de eldste tømmerbygningene i grenda. Foreningen kommer til å kontakte alle berørte for å planlegge besøk hos de som ønsker å delta. Vanligvis er årringdatering ganske dyrt, men det er i prosjektet helt gratis.**
 
-## Slik tas prøvene
+Valg av bygninger utgår fra den registrering av gamle bygninger som kommunen gjorde i grenda 1991. Alle bygninger som i dette registret (SEFRAK) er eldre en 1850 vil bli aktuelle, ca 40 bygninger.
 
-Det tas boreprøver med en diameter på omtrent seks millimeter fra noen av
-tømmerstokkene. Avstanden mellom årringene måles og sammenlignes med
-referanseprøver som dekker den aktuelle tidsperioden. Et dataprogram brukes
-deretter til å beregne når treet ble felt.
+Arbeidet gjøres ved at det tas boreprøver på 6 mm Ø fra innsiden av noen tømmerstokker.
+
+Gjennom å måle avstanden mellom årringene og jamnføre med grunnprøver (tidligere prøver som dekker årringer i den aktuelle tidsperiode) kan man med ett dataprogram faststille når stokken er hogd. Hvis bygningen er panelt går det noen ganger å ta prøver i kjellere, på loft eller på utsiden oppunder taket. Det optimale er rundstokker hvor litt bark sitter igjen (siste årringen), men på de fleste stokker kan prøver tas.
 
 <figure>
   <a href="/assets/images/history/arringprove.png">
-    <img src="/assets/images/history/arringprove.png" alt="Illustrasjon av årringer i en furuprøve." width="124" height="200">
+    <img src="/assets/images/history/arringprove.png" alt="Brannlyre av furu" width="124" height="200">
   </a>
-  <figcaption>Årringer brukes til å datere tømmeret.</figcaption>
+  <figcaption>
+    Brannlyre av furu. Av <a href="https://brukere.snl.no/54995">Lars Sandved Dalen</a>.
+    Lisens: <a href="https://creativecommons.org/licenses/by-sa/3.0/no/">CC BY SA 3.0</a>
+  </figcaption>
 </figure>
 
-Prøver kan ofte tas fra kjeller, loft eller under taket dersom bygningen er
-panelt. Rundstokker med rester av bark gir det beste grunnlaget, men mange
-andre stokker kan også brukes. Vanligvis starter arbeidet med tre eller fire
-prøver fra ulike steder i bygningen.
+På hver bygning er det ideellt å begynne med 3-4 prøver på forskjellige steder. Om disse gir samme resultat er det nok, ellers kan det bli aktuelt med et nytt besøk. Mange bygninger har ofte en blanding av gammelt gjenbrukt tømmer og nyere.
 
-Gamle hus kan inneholde både gjenbrukt og nyere tømmer. Flere prøver er derfor
-viktige for å få et pålitelig resultat.
+Ingen steder på Finnskogen er det funnet bygninger eldre en 1700-tallet. Liknende prosjekt er gjennomført på Trysil Finnskog 2020-2022 og i Gravberget 2024. Alle huseiere får etter prosjektet en protokoll med resultatene, foreningen vil også presentere resultatene på en kommende Kulturdag.
 
-Tilsvarende prosjekter ble gjennomført på Trysil Finnskog i 2020–2022 og i
-Gravberget i 2024. Huseierne skulle få en protokoll med resultatet, og
-foreningen planla å presentere funnene på en senere kulturdag.
+**Kontaktpersoner i foreningen er:**
 
-## Les mer
+- Odd Løvhaugen; tel 930 59 289, <a href="mailto:odd.lovhaugen@gmail.com">odd.lovhaugen@gmail.com</a>
 
-- [Dendrokronologi på Lokalhistoriewiki](https://lokalhistoriewiki.no/Dendrokronologi)
-- [Dendrokronologi i Store norske leksikon](https://snl.no/dendrokronologi)
+- Frode Sveen; tel 913 66 516, <a href="mailto:frodesve1@gmail.com">frodesve1@gmail.com</a>
 
-<div class="notice">
-  <h2>Kontaktopplysninger må bekreftes</h2>
-  <p>Prosjektsiden ble sist oppdatert 27. mars 2025. Personlige telefonnumre og e-postadresser fra arkivet er ikke publisert på nytt.</p>
-</div>
+- Prøvetaker Bo Hansson; tel 468 31 242, <a href="mailto:boivarhansson@gmail.com">boivarhansson@gmail.com</a>
 
+(Hvis dere ser en hvit og svart Toyota rundt gårdene i vår/sommer så er det prøvetakeren).
+
+Her kan du lese mer om [dendrokronologi / årringdatering.](https://lokalhistoriewiki.no/Dendrokronologi)
+
+Eller du kan lese denne artikkelen hos [Store Norske leksikon](https://snl.no/dendrokronologi)

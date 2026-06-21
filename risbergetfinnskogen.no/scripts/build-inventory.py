@@ -17,6 +17,18 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE_ROOT = PROJECT_ROOT.parent / "risbergetvaalerfinnskog.com"
 DOCS_ROOT = PROJECT_ROOT / "docs"
 REDIRECTS_FILE = PROJECT_ROOT / "src" / "_data" / "redirects.json"
+REDIRECT_ALIASES = [
+    {
+        "from": "/historie/350-arsjubileum/del-1/",
+        "to": "/historie/350-arsjubileum/",
+        "status": 301,
+    },
+    {
+        "from": "/historie/350-arsjubileum/del-2/",
+        "to": "/historie/350-arsjubileum/",
+        "status": 301,
+    },
+]
 
 
 MIGRATION = {
@@ -25,8 +37,8 @@ MIGRATION = {
     "dendrokronologi.html": ("/historie/dendrokronologi/", "Historie og kultur", "standard page"),
     "118111329.html": ("/risberget/rundt/", "Om Risberget", "standard page"),
     "118111365.html": ("/risberget/skiloyper/", "Om Risberget", "standard page"),
-    "118111340.html": ("/historie/350-arsjubileum/del-1/", "Historie og kultur", "event"),
-    "118111353.html": ("/historie/350-arsjubileum/del-2/", "Historie og kultur", "event"),
+    "118111340.html": ("/historie/350-arsjubileum/", "Historie og kultur", "event"),
+    "118111353.html": ("/historie/350-arsjubileum/", "Historie og kultur", "event"),
     "118111341/index.html": ("/historie/finnebosetning/", "Historie og kultur", "standard page"),
     "118111341/118111349.html": ("/historie/skogfinner/", "Historie og kultur", "standard page"),
     "451549850.html": ("/historie/svedjefinnene/", "Historie og kultur", "standard page"),
@@ -214,8 +226,7 @@ def collect_page(source_path: Path) -> dict:
             "/historie/svedjefinnene/",
             "/historie/minnepark/",
             "/historie/arbeidern/",
-            "/historie/350-arsjubileum/del-1/",
-            "/historie/350-arsjubileum/del-2/",
+            "/historie/350-arsjubileum/",
             "/arrangementer/kulturdag-2019/",
             "/arrangementer/kulturdag-2020/",
             "/arrangementer/kulturdag-2021/",
@@ -314,7 +325,7 @@ def main() -> None:
     redirects = [
         {"from": page["old_url"], "to": page["proposed_url"], "status": 301}
         for page in pages
-    ]
+    ] + REDIRECT_ALIASES
     REDIRECTS_FILE.write_text(
         json.dumps(redirects, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

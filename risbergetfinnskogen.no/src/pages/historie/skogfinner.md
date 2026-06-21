@@ -61,3 +61,4 @@ være det eneste som skilte røykstua fra andre hus.
 De bevarte røykstuene varierer mye i størrelse. De minste røykstuerommene er
 omkring 17–32 kvadratmeter, mens de største er over 50 kvadratmeter.
 
+Les mer på [Wikipedia](https://no.wikipedia.org/wiki/Skogfinner).

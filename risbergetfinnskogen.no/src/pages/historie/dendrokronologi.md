@@ -22,6 +22,3 @@ tømmerstokker i den gamle stua.
   </a>
   <figcaption>Vollstua etter den første prøvetakingen i mai 2025.</figcaption>
 </figure>
-
-Siden ble sist oppdatert 10. mai 2025.
-

@@ -1,8 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Risberget kirke
-description: Historien om kirkesalen i Risberget, innviet i 1863.
-introduction: Kirkesalen i den nybygde skolen ble innviet 18. oktober 1863, drøye 200 år etter den første bosettingen i Risberget.
+description: Historien om kirkesalen i Risberget, som ble innviet 18. oktober 1863.
 permalink: /kirken/
 breadcrumbs:
   - label: Risberget kirke
@@ -19,27 +18,32 @@ breadcrumbs:
 
 ## Hva har skjedd med kirkebygget i Risberget?
 
-Den 18. oktober 1863 samlet folket i Risberget seg i andre etasje i den
-nybygde skolen. Den nye forsamlingssalen, kirkesalen, ble innviet denne dagen.
-Rommet var enkelt innredet med omkring 60 sitteplasser.
+Anno Domini 1863. Vi skriver 18. oktober. Folket i Risberget samler seg i
+andre etasje i den nybygde skolen. Drøye 200 år etter den første bosetningen
+har grenda fått sitt eget gudshus. Den nye forsamlingssalen (kirkesalen) ble
+da innviet.
 
-Kirkeboka forteller at dagen også omfattet konfirmasjon, fem barnedåper,
-kommunion for 91 personer, to brudevielser og to jordfestelser. Det ble en
-historisk fest- og minnedag. Kirkesalen har siden vært høyt verdsatt og godt
-ivaretatt.
+Enkelt innredet med ca. 60 sitteplasser. Det er nok trangt, for kirkeboka
+beretter også om konfirmasjon, fem barnedåper, kommunion for 91, to
+brudevielser og to jordfestelser.
 
-Da kirkesalen ble innviet, var Nikolai Gerhard Berg sokneprest i Våler.
-Våler formannskap behandlet i 1856 et brev fra prosten om finansiering av
-skolebygget. Det ble gitt 100 spesiedaler, mens Opplysningsvesenets fond
-skulle utrede 460 spesiedaler. Samlet kostnad var dermed 560 spesiedaler.
-Sju år senere var bygget ferdig til bruk.
+En historisk fest- og minnedag. Stor glede over det nye kirkerommet, som
+gjennom tiden er blitt høyt verdsatt og ivaretatt.
 
-Etter forslag fra Paudor Risberg ble det i 1899 bygd klokkehus på kirka.
-Tre år senere kom kirkeklokka på plass. Risbergsklokka har høytidsklang i G.
+Da kirkesalen ble innviet, var Nikolai Gerhard Berg sokneprest i Våler. I 1856
+behandlet Våler formannskap et brev fra prosten, datert 4. juli, som gikk ut på
+at det skulle ytes 100 spesiedaler, og at Opplysningsvesenets fond skulle
+utrede 460 spesiedaler til bygging av skolen. Samlet kostnad for bygget var
+altså 560 spesiedaler. Sju år senere var det ferdig til bruk.
+
+Etter forslag fra Paudor Risberg ble det i 1899 bygget klokkehus på kirka, og
+tre år senere kom kirkeklokka på plass. Den har en spesiell klang,
+Risbergsklokka: høytidsklang i G. Når det ringes til gudstjeneste på julaften,
+kan man føle den gode høytidsstemningen som fyller rom og mennesker.
 
 <div class="card-grid">
-  <a class="card" href="/kirken/kirkesal/">
-    <h2>Kirkesalen</h2>
+  <a class="card" href="/kirken/altertavle/">
+    <h2>Altertavla</h2>
     <p>Altertavla, døpefonten, kirkestolene og orglene.</p>
   </a>
   <a class="card" href="/kirken/gravferd/">
@@ -52,5 +56,4 @@ Tre år senere kom kirkeklokka på plass. Risbergsklokka har høytidsklang i G.
   </a>
 </div>
 
-<p class="source-note">Kildeteksten er fra Risberget kulturhistoriske forenings arkiverte nettsted, © 2015.</p>
-
+<p class="source-note">Copyright © 2015 Risberget kulturhistoriske forening</p>

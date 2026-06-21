@@ -5,6 +5,7 @@ function numberedImages({
   label,
   dimensions,
   firstAlt,
+  altByNumber = {},
   firstCaption,
 }) {
   return Array.from({ length: count }, (_, offset) => {
@@ -13,7 +14,9 @@ function numberedImages({
 
     return {
       src: `/assets/images/events/${folder}/${prefix}-${String(number).padStart(2, "0")}.jpg`,
-      alt: number === 1 && firstAlt ? firstAlt : `${label}, fotografi ${number}.`,
+      alt:
+        altByNumber[number] ??
+        (number === 1 && firstAlt ? firstAlt : `${label}, fotografi ${number}.`),
       caption: number === 1 ? firstCaption : undefined,
       width: size.width,
       height: size.height,
@@ -24,22 +27,16 @@ function numberedImages({
 const size = (width, height) => () => ({ width, height });
 
 export default {
-  jubileumDel1: numberedImages({
-    folder: "jubileum-2017-del-1",
-    prefix: "jubileum-del-1",
-    count: 21,
-    label: "350-årsjubileet for finneinnvandringen i Risberget, del 1",
-    dimensions: (number) =>
-      number <= 4 ? { width: 1280, height: 960 } : { width: 2500, height: 1875 },
-    firstAlt: "Håndmalt skilt med teksten «350 år» langs veien til jubileet.",
-  }),
-  jubileumDel2: numberedImages({
-    folder: "jubileum-2017-del-2",
-    prefix: "jubileum-del-2",
-    count: 18,
-    label: "350-årsjubileet for finneinnvandringen i Risberget, del 2",
+  jubileum2017: numberedImages({
+    folder: "jubileum-2017",
+    prefix: "jubileum-2017",
+    count: 39,
+    label: "350-årsjubileet for finneinnvandringen i Risberget",
     dimensions: size(2500, 1875),
-    firstAlt: "Besøkende sitter utenfor forsamlingslokalet under 350-årsjubileet.",
+    firstAlt: "Håndmalt skilt med teksten «350 år» langs veien til jubileet.",
+    altByNumber: {
+      22: "Besøkende sitter utenfor forsamlingslokalet under 350-årsjubileet.",
+    },
   }),
   kulturdag2019: numberedImages({
     folder: "kulturdag-2019",

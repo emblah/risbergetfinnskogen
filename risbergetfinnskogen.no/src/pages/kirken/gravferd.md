@@ -82,5 +82,4 @@ brukt i undervisningen da det var skole i denne etasjen.
 Jærstolene er en gave fra Øivind Risberg. Gardinstengene har den franske liljen
 som symbol, og gardinene er også gitt som gave.
 
-<p class="source-note">Kildeteksten er fra Risberget kulturhistoriske forenings arkiverte nettsted, © 2015.</p>
-
+<p class="source-note">Copyright © 2015 Risberget kulturhistoriske forening</p>

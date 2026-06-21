@@ -1,13 +1,13 @@
 ---
 layout: layouts/page.njk
-title: Kirkesalen
+title: Altertavla
 description: "Inventaret i Risberget kirkesal: altertavle, døpefont, stoler og orgler."
 introduction: Kirkesalens inventar er blitt til gjennom gaver, lokalt håndverk og innsamling i menigheten.
-permalink: /kirken/kirkesal/
+permalink: /kirken/altertavle/
 breadcrumbs:
   - label: Risberget kirke
     url: /kirken/
-  - label: Kirkesalen
+  - label: Altertavla
 ---
 
 <figure>
@@ -87,4 +87,4 @@ messehaglene som er brukt i Risberget kirkesal, oppbevares der.
   </figure>
 </div>
 
-<p class="source-note">Kildeteksten er fra Risberget kulturhistoriske forenings arkiverte nettsted, © 2015.</p>
+<p class="source-note">Copyright © 2015 Risberget kulturhistoriske forening</p>

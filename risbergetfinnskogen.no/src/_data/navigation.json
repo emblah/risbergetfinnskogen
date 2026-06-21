@@ -38,14 +38,48 @@
         "url": "/historie/finnebosetning/"
       },
       {
+        "label": "Svedjefinnene",
+        "url": "/historie/svedjefinnene/"
+      },
+      {
         "label": "Årringdatering",
         "url": "/historie/arringdatering/"
+      },
+      {
+        "label": "Dendrokronologi",
+        "url": "/historie/dendrokronologi/"
+      },
+      {
+        "label": "Minneparken",
+        "url": "/historie/minnepark/"
+      },
+      {
+        "label": "Arbeider’n",
+        "url": "/historie/arbeidern/"
+      },
+      {
+        "label": "350-årsjubileet",
+        "url": "/historie/350-arsjubileum/"
       }
     ]
   },
   {
     "label": "Risberget kirke",
-    "url": "/kirken/"
+    "url": "/kirken/",
+    "children": [
+      {
+        "label": "Kirkesalen",
+        "url": "/kirken/kirkesal/"
+      },
+      {
+        "label": "Seremonirommet",
+        "url": "/kirken/gravferd/"
+      },
+      {
+        "label": "Gravlund og klokketårn",
+        "url": "/kirken/gravlund/"
+      }
+    ]
   },
   {
     "label": "Arrangementer",

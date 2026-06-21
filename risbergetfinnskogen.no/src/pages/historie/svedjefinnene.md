@@ -2,7 +2,6 @@
 layout: layouts/page.njk
 title: Da svedjefinnene kom til Risberget
 description: Arkivinformasjon om Trond Buruds foredrag om svedjefinnenes vei til Risberget.
-introduction: Det gamle nettstedet viste til en utvidet PDF-versjon av et miniforedrag av Trond Burud.
 permalink: /historie/svedjefinnene/
 breadcrumbs:
   - label: Historie og kultur
@@ -10,15 +9,18 @@ breadcrumbs:
   - label: Svedjefinnene
 ---
 
-Foredraget beskrev finnenes vei til Risberget og ble senere utvidet med flere
-bilder og revidert tekst. Den arkiverte siden oppga 16. januar 2022 som
-versjonsdato.
+***Fra TROND BURUD...***
 
-<div class="notice notice-warning">
-  <h2>Dokumentet mangler i arkivet</h2>
-  <p>Selve PDF-filen var publisert via Facebook og ble ikke med i den lokale kopien av nettstedet. Den må hentes fra forfatteren eller foreningens arkiv før teksten kan migreres.</p>
-</div>
+Da svedjefinnene kom til Risberget ..
 
-Den gamle siden lenket til
-[Trond Buruds Facebook-profil](https://www.facebook.com/trond.burud).
+Dere som var og hørte på miniforedraget jeg holdt om finnenes vei til Risberget på sommerkafeen, husker kanskje at jeg lovet å publisere dette.
 
+Etter mye om og men ser det ut til at jeg har klart å få lagt det tilgjengelig på FB via denne siden, og skal også gjøre den tilgjengelig på min egen FB side.
+
+Denne Pdf fila en utvidet utgave av foredraget, med mange nye bilder og med en revidert tekst.
+
+Dette er en oppdatert versjon 16, januar 2022
+
+Tekst og bilder finnes under FB-linken.
+
+[Trond Burud | Facebook](https://www.facebook.com/groups/511388705649336/permalink/4727254327396065/)
