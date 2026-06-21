@@ -52,14 +52,8 @@ These appear to be small website-builder/theme background assets, not primary co
 2. Add placeholders or remove references for the two missing builder images.
 3. Test the site locally with a static server.
 4. Create a clean deploy folder containing only needed HTML, `onewebstatic/`, downloaded images, and any required support files.
-
-## Useful Commands
-
-Download unique images again:
-
-```bash
-./download-unique-images.sh
-```
+5. Buy domain risbergetfinnskogen.no
+6. Create and link up gmail -> @risbergetfinnskogen.no
 
 Run a simple local static server:
 

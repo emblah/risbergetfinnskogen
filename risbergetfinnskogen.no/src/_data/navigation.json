@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Forside",
+    "url": "/"
+  },
+  {
+    "label": "Om Risberget",
+    "url": "/risberget/",
+    "children": [
+      {
+        "label": "Finnskogen",
+        "url": "/risberget/finnskogen/"
+      },
+      {
+        "label": "Risbergsmarka",
+        "url": "/risberget/risbergsmarka/"
+      },
+      {
+        "label": "Risberget rundt",
+        "url": "/risberget/rundt/"
+      },
+      {
+        "label": "Skiløyper",
+        "url": "/risberget/skiloyper/"
+      }
+    ]
+  },
+  {
+    "label": "Historie og kultur",
+    "url": "/historie/",
+    "children": [
+      {
+        "label": "Skogfinner",
+        "url": "/historie/skogfinner/"
+      },
+      {
+        "label": "Finnebosetning",
+        "url": "/historie/finnebosetning/"
+      },
+      {
+        "label": "Årringdatering",
+        "url": "/historie/arringdatering/"
+      }
+    ]
+  },
+  {
+    "label": "Risberget kirke",
+    "url": "/kirken/"
+  },
+  {
+    "label": "Arrangementer",
+    "url": "/arrangementer/"
+  },
+  {
+    "label": "Bilder",
+    "url": "/bilder/",
+    "children": [
+      {
+        "label": "Vinter",
+        "url": "/bilder/vinter/"
+      },
+      {
+        "label": "Vår",
+        "url": "/bilder/var/"
+      },
+      {
+        "label": "Sommer",
+        "url": "/bilder/sommer/"
+      },
+      {
+        "label": "Høst",
+        "url": "/bilder/host/"
+      }
+    ]
+  },
+  {
+    "label": "Foreningen",
+    "url": "/foreningen/",
+    "children": [
+      {
+        "label": "Årsmøteprotokoller",
+        "url": "/foreningen/arsmoteprotokoller/"
+      },
+      {
+        "label": "Styret og informasjon",
+        "url": "/foreningen/styret/"
+      },
+      {
+        "label": "Medlemskap",
+        "url": "/foreningen/medlemskap/"
+      }
+    ]
+  },
+  {
+    "label": "Kontakt",
+    "url": "/kontakt/"
+  }
+]

@@ -1,0 +1,11 @@
+<nav class="breadcrumbs content-shell" aria-label="Brødsmuler">
+  <ol>
+    <li><a href="/">Forside</a></li>
+    {% for item in breadcrumbs %}
+      <li>
+        {% if item.url %}<a href="{{ item.url }}">{{ item.label }}</a>{% else %}<span aria-current="page">{{ item.label }}</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</nav>
+

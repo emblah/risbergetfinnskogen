@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="content-shell footer-inner">
+    <div>
+      <strong>{{ site.name }}</strong>
+      <p>Lokalt historie-, kultur- og foreningsarbeid.</p>
+    </div>
+    {% if site.email %}
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    {% else %}
+      <p><a href="/kontakt/">Kontakt</a></p>
+    {% endif %}
+  </div>
+</footer>

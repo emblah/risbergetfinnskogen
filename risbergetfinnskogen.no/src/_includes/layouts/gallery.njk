@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+<article class="content-shell flow">
+  <header class="page-header flow">
+    <p class="eyebrow">Bildegalleri</p>
+    <h1>{{ title }}</h1>
+    {% if introduction %}<p class="introduction">{{ introduction }}</p>{% endif %}
+  </header>
+  <div class="gallery" role="list">
+    {% for image in images %}
+      <figure role="listitem">
+        <a href="{{ image.large or image.src }}" data-lightbox aria-label="Åpne større bilde: {{ image.alt }}">
+          <img
+            src="{{ image.src }}"
+            alt="{{ image.alt }}"
+            width="{{ image.width }}"
+            height="{{ image.height }}"
+            loading="lazy">
+        </a>
+        {% if image.caption %}<figcaption>{{ image.caption }}</figcaption>{% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+</article>

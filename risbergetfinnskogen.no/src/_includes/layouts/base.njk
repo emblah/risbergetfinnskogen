@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site.name }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <script src="/assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Hopp til hovedinnhold</a>
+    {% include "components/header.njk" %}
+    <main id="main-content">
+      {% if breadcrumbs %}
+        {% include "components/breadcrumbs.njk" %}
+      {% endif %}
+      {{ content | safe }}
+    </main>
+    {% include "components/footer.njk" %}
+  </body>
+</html>
+
