@@ -2,7 +2,7 @@
   <ul>
     {% for item in navigation %}
       <li{% if item.children %} class="has-children"{% endif %}>
-        <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% elif item.url != "/" and item.url in page.url %} class="is-current-section"{% endif %}>{{ item.label }}</a>
         {% if item.children %}
           <ul>
             {% for child in item.children %}

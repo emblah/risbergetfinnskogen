@@ -83,7 +83,29 @@
   },
   {
     "label": "Arrangementer",
-    "url": "/arrangementer/"
+    "url": "/arrangementer/",
+    "children": [
+      {
+        "label": "Kulturdagen 2022",
+        "url": "/arrangementer/kulturdag-2022/"
+      },
+      {
+        "label": "Kulturdagen 2021",
+        "url": "/arrangementer/kulturdag-2021/"
+      },
+      {
+        "label": "Kulturdagen 2020",
+        "url": "/arrangementer/kulturdag-2020/"
+      },
+      {
+        "label": "Kulturdagen 2019",
+        "url": "/arrangementer/kulturdag-2019/"
+      },
+      {
+        "label": "350-årsjubileet i 2017",
+        "url": "/historie/350-arsjubileum/"
+      }
+    ]
   },
   {
     "label": "Bilder",

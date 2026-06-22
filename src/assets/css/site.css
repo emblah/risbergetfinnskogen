@@ -173,7 +173,8 @@ ol {
   background: var(--color-green);
 }
 
-.site-navigation a[aria-current="page"] {
+.site-navigation a[aria-current="page"],
+.site-navigation a.is-current-section {
   color: white;
   font-weight: 700;
   background: var(--color-green);
