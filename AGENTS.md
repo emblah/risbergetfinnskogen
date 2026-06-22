@@ -10,7 +10,7 @@ directly. Development builds output to `_site`.
 - `src/_includes/`: shared layouts and components
 - `src/_data/`: site, navigation, redirect, and gallery data
 - `src/assets/`: CSS, JavaScript, images, and downloadable documents
-- `scripts/check-site.py`: generated-site validation
+- `scripts/check-site.js`: generated-site validation
 - `eleventy.config.js`: Eleventy input, output, and passthrough configuration
 
 Use Markdown for text-heavy pages and Nunjucks when substantial HTML or

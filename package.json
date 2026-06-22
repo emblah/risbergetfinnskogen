@@ -6,9 +6,10 @@
   "scripts": {
     "start": "eleventy --serve --output=_site",
     "build": "eleventy --pathprefix=risbergetfinnskogen && npm run check",
-    "check": "python3 scripts/check-site.py"
+    "check": "node scripts/check-site.js --site-root docs --path-prefix risbergetfinnskogen"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.1.6"
+    "@11ty/eleventy": "3.1.6",
+    "parse5": "8.0.0"
   }
 }

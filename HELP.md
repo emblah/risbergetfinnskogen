@@ -8,7 +8,7 @@ Use this guide when adding or changing content.
 Requirements:
 
 - Node.js 20 or newer
-- npm
+- npm (included in most Node.js installations)
 
 Install dependencies and start the development server:
 
@@ -25,7 +25,7 @@ Before committing, run:
 npm run build
 ```
 
-This writes the production site to `docs/` and runs `scripts/check-site.py`.
+This writes the production site to `docs/` and runs `scripts/check-site.js`.
 The check fails on broken local links, missing document titles, or pages that do
 not contain exactly one `<h1>`.
 
@@ -43,7 +43,7 @@ Do not edit files in `docs/` directly. They are generated from `src/`.
 - `src/assets/js/site.js`: navigation and gallery lightbox behavior
 - `src/_data/navigation.json`: sidebar navigation
 - `src/_data/redirects.json`: legacy URL mappings
-- `src/_data/eventGalleries.js`: image definitions for event galleries
+- `scripts/check-site.js`: validation of generated HTML and local links
 
 ## Choosing Markdown or Nunjucks
 
@@ -206,7 +206,8 @@ When adding a gallery:
 
 ## Events
 
-Event pages use Markdown for event text and reference a gallery key:
+Event pages use Markdown for event text and keep their image data in front
+matter, using the same format as standalone galleries:
 
 ```md
 ---
@@ -215,11 +216,20 @@ title: Kulturdagen 2026
 description: Program og bilder fra Kulturdagen 2026 i Risberget.
 introduction: Kort introduksjon til arrangementet.
 permalink: /arrangementer/kulturdag-2026/
-eventGallery: kulturdag2026
 breadcrumbs:
   - label: Arrangementer
     url: /arrangementer/
   - label: Kulturdagen 2026
+images:
+  - src: /assets/images/events/kulturdag-2026/kulturdag-2026-01.jpg
+    alt: Konkret beskrivelse av motivet i det første bildet.
+    width: 1280
+    height: 960
+  - src: /assets/images/events/kulturdag-2026/kulturdag-2026-02.jpg
+    alt: Konkret beskrivelse av motivet i det andre bildet.
+    caption: Valgfri synlig bildetekst.
+    width: 1280
+    height: 960
 ---
 Tekst om arrangementet.
 ```
@@ -230,34 +240,18 @@ Event images are stored in:
 src/assets/images/events/kulturdag-2026/
 ```
 
-Define the key used by `eventGallery` in `src/_data/eventGalleries.js`. The
-existing `numberedImages()` helper is preferred when files follow a numbered
-pattern:
+Add each image to the page's `images` list with its path, useful alternative
+text, and intrinsic dimensions. Add `caption` when visible context is useful.
+An event page may omit `images` when it has no images.
 
-```js
-kulturdag2026: numberedImages({
-  folder: "kulturdag-2026",
-  prefix: "kulturdag-2026",
-  count: 12,
-  label: "Kulturdagen 2026 i Risberget",
-  dimensions: size(1280, 960),
-  firstAlt: "Konkret beskrivelse av motivet i det første bildet.",
-}),
-```
-
-Use a custom `dimensions(number)` function when image sizes vary. Use
-`altByNumber` for images that need a more specific description and
-`firstCaption` for a visible caption on the first image.
-
-An event page may omit `eventGallery` when it has no images. When adding an
-event, also update:
+When adding an event, also update:
 
 - `src/pages/arrangementer/index.njk`
 - `src/_data/navigation.json`, if the event should appear in the sidebar
 - `src/_data/redirects.json`, if an old public URL must continue to work
 
-Historical events outside `/arrangementer/` may still use the event layout, as
-the 350-year anniversary page does.
+Historical events may also use the event layout, as the 350-year anniversary
+page does.
 
 ## Navigation and links
 
