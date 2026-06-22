@@ -15,16 +15,17 @@
   </head>
   <body>
     <a class="skip-link" href="#main-content">Hopp til hovedinnhold</a>
-    <header class="site-header">
-  <div class="header-inner">
-    <a class="site-brand" href="/risbergetfinnskogen/" aria-label="Risberget på Finnskogen, forside">
-      <span>Risberget</span>
-      <small>på Finnskogen</small>
-    </a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">
-      Meny
-    </button>
-    <nav id="site-navigation" class="site-navigation" aria-label="Hovedmeny">
+    <div class="site-frame">
+      <aside class="site-sidebar">
+        <div class="sidebar-heading">
+          <a class="sidebar-brand" href="/risbergetfinnskogen/" aria-label="Risberget på Finnskogen, forside">
+            Risberget
+          </a>
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">
+            Meny
+          </button>
+        </div>
+        <nav id="site-navigation" class="site-navigation" aria-label="Hovedmeny">
   <ul>
     
       <li>
@@ -32,7 +33,7 @@
         
       </li>
     
-      <li>
+      <li class="has-children">
         <a href="/risbergetfinnskogen/risberget/">Om Risberget</a>
         
           <ul>
@@ -57,7 +58,7 @@
         
       </li>
     
-      <li>
+      <li class="has-children">
         <a href="/risbergetfinnskogen/historie/">Historie og kultur</a>
         
           <ul>
@@ -98,7 +99,7 @@
         
       </li>
     
-      <li>
+      <li class="has-children">
         <a href="/risbergetfinnskogen/kirken/">Risberget kirke</a>
         
           <ul>
@@ -124,7 +125,7 @@
         
       </li>
     
-      <li>
+      <li class="has-children">
         <a href="/risbergetfinnskogen/bilder/">Bilder</a>
         
           <ul>
@@ -149,7 +150,7 @@
         
       </li>
     
-      <li>
+      <li class="has-children">
         <a href="/risbergetfinnskogen/foreningen/">Foreningen</a>
         
           <ul>
@@ -178,14 +179,17 @@
   </ul>
 </nav>
 
-
-  </div>
+      </aside>
+      <div class="site-column">
+        <header class="site-header">
+  <a class="site-banner" href="/risbergetfinnskogen/" aria-label="Risberget på Finnskogen, forside">
+    <span>Velkommen til Risberget på Finnskogen</span>
+  </a>
 </header>
 
-
-    <main id="main-content">
-      
-        <nav class="breadcrumbs content-shell" aria-label="Brødsmuler">
+        <main id="main-content">
+          
+            <nav class="breadcrumbs content-shell" aria-label="Brødsmuler">
   <ol>
     <li><a href="/risbergetfinnskogen/">Forside</a></li>
     
@@ -201,8 +205,8 @@
 </nav>
 
 
-      
-      <article class="content-shell flow">
+          
+          <article class="content-shell flow">
   <header class="page-header flow">
     
     <h1>Altertavla</h1>
@@ -269,9 +273,9 @@ messehaglene som er brukt i Risberget kirkesal, oppbevares der.</p>
 </article>
 
 
-    </main>
-    <footer class="site-footer">
-  <div class="content-shell footer-inner">
+        </main>
+        <footer class="site-footer">
+  <div class="footer-inner">
     <div>
       <strong>Risberget på Finnskogen</strong>
       <p>Lokalt historie-, kultur- og foreningsarbeid.</p>
@@ -282,6 +286,7 @@ messehaglene som er brukt i Risberget kirkesal, oppbevares der.</p>
   </div>
 </footer>
 
+      </div>
+    </div>
   </body>
 </html>
-

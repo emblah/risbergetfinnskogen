@@ -15,14 +15,28 @@
   </head>
   <body>
     <a class="skip-link" href="#main-content">Hopp til hovedinnhold</a>
-    {% include "components/header.njk" %}
-    <main id="main-content">
-      {% if breadcrumbs %}
-        {% include "components/breadcrumbs.njk" %}
-      {% endif %}
-      {{ content | safe }}
-    </main>
-    {% include "components/footer.njk" %}
+    <div class="site-frame">
+      <aside class="site-sidebar">
+        <div class="sidebar-heading">
+          <a class="sidebar-brand" href="/" aria-label="{{ site.name }}, forside">
+            {{ site.shortName }}
+          </a>
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">
+            Meny
+          </button>
+        </div>
+        {% include "components/navigation.njk" %}
+      </aside>
+      <div class="site-column">
+        {% include "components/header.njk" %}
+        <main id="main-content">
+          {% if breadcrumbs %}
+            {% include "components/breadcrumbs.njk" %}
+          {% endif %}
+          {{ content | safe }}
+        </main>
+        {% include "components/footer.njk" %}
+      </div>
+    </div>
   </body>
 </html>
-

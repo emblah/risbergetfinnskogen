@@ -1,7 +1,7 @@
 <nav id="site-navigation" class="site-navigation" aria-label="Hovedmeny">
   <ul>
     {% for item in navigation %}
-      <li>
+      <li{% if item.children %} class="has-children"{% endif %}>
         <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
         {% if item.children %}
           <ul>
@@ -16,4 +16,3 @@
     {% endfor %}
   </ul>
 </nav>
-
