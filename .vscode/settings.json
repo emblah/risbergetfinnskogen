@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "docs": true,
+    "_site": true,
+    "node_modules": true
+  }
+}
