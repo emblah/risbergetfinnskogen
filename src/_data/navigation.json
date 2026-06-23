@@ -82,6 +82,10 @@
     "url": "/arrangementer/",
     "children": [
       {
+        "label": "Kulturdagen 2025",
+        "url": "/arrangementer/kulturdag-2025/"
+      },
+      {
         "label": "Kulturdagen 2022",
         "url": "/arrangementer/kulturdag-2022/"
       },
