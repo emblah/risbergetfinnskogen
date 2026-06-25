@@ -5,7 +5,6 @@ description: Merkede turløyper på 5 og 11 kilometer med start ved Kynnbrua.
 introduction: Risberget rundt er et terrengløp og en merket tur som kan gås på egen hånd gjennom sommerhalvåret.
 permalink: /risberget/rundt/
 nav:
-  parent: /risberget/
   order: 3
 breadcrumbs:
   - label: Om Risberget

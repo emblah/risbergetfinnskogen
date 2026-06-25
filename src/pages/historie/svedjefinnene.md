@@ -5,7 +5,6 @@ description: Arkivinformasjon om Trond Buruds foredrag om svedjefinnenes vei til
 permalink: /historie/svedjefinnene/
 nav:
   label: Svedjefinnene
-  parent: /historie/
   order: 3
 breadcrumbs:
   - label: Historie og kultur

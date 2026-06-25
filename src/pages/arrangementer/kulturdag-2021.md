@@ -5,7 +5,6 @@ description: Program og bilder fra Kulturdagen 2021 om Risberget under krig og o
 introduction: Kulturdagen 11. september 2021 tok opp lokale historier fra krigsårene 1940–1945.
 permalink: /arrangementer/kulturdag-2021/
 nav:
-  parent: /arrangementer/
   order: 3
 breadcrumbs:
   - label: Arrangementer

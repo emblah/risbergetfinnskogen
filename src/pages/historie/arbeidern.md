@@ -6,7 +6,6 @@ introduction: Forsamlingslokalet Stenvang ble reist av arbeiderbevegelsen i Risb
 permalink: /historie/arbeidern/
 nav:
   label: Arbeider'n
-  parent: /historie/
   order: 7
 breadcrumbs:
   - label: Historie og kultur

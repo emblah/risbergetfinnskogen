@@ -5,7 +5,6 @@ description: Program og bilder fra Kulturdagen 2019 om jakttradisjoner på Finns
 introduction: Temaet for Kulturdagen 2019 var jakttradisjoner på Finnskogen.
 permalink: /arrangementer/kulturdag-2019/
 nav:
-  parent: /arrangementer/
   order: 5
 breadcrumbs:
   - label: Arrangementer

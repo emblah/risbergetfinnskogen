@@ -78,7 +78,7 @@ function readNavPage(file) {
     file: relativeFile,
     label: label.trim(),
     order: nav.order,
-    parent: nav.parent ? normalizeUrl(nav.parent, relativeFile) : null,
+    parent: nav.parent ? normalizeUrl(nav.parent, relativeFile) : undefined,
     url,
   };
 }
@@ -116,22 +116,37 @@ function assertUniqueSiblingOrders(parentLabel, pages) {
   }
 }
 
+function inferParent(url, byUrl) {
+  const parts = url.split("/").filter(Boolean);
+
+  for (let length = parts.length - 1; length > 0; length -= 1) {
+    const candidate = `/${parts.slice(0, length).join("/")}/`;
+    if (byUrl.has(candidate)) {
+      return candidate;
+    }
+  }
+
+  return null;
+}
+
 function buildTree(pages, byUrl) {
   const roots = [];
   const siblingsByParent = new Map([["root", roots]]);
 
   for (const page of pages) {
-    if (!page.parent) {
+    const parentUrl = page.parent ?? inferParent(page.url, byUrl);
+
+    if (!parentUrl) {
       roots.push(page);
       continue;
     }
 
-    const parent = byUrl.get(page.parent);
+    const parent = byUrl.get(parentUrl);
     if (!parent) {
-      throw new Error(`${page.file}: nav.parent ${page.parent} is not included in navigation`);
+      throw new Error(`${page.file}: nav.parent ${parentUrl} is not included in navigation`);
     }
     parent.children.push(page);
-    siblingsByParent.set(page.parent, parent.children);
+    siblingsByParent.set(parentUrl, parent.children);
   }
 
   for (const [parent, siblings] of siblingsByParent) {

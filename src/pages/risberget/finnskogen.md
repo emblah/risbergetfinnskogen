@@ -5,7 +5,6 @@ description: Om Finnskogen, Finnskogleden, naturen og dyrelivet.
 introduction: Finnskogen strekker seg langs begge sider av riksgrensen mellom Norge og Sverige.
 permalink: /risberget/finnskogen/
 nav:
-  parent: /risberget/
   order: 1
 breadcrumbs:
   - label: Om Risberget

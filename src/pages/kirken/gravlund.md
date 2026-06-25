@@ -5,7 +5,6 @@ description: Om klokketårnet ved gravlunden i Risberget.
 introduction: Klokketårnet kom på plass i 2008–2009 og har samme utforming som kirketårnet.
 permalink: /kirken/gravlund/
 nav:
-  parent: /kirken/
   order: 3
 breadcrumbs:
   - label: Risberget kirke

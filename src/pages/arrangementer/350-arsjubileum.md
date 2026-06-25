@@ -6,7 +6,6 @@ introduction: I 2017 markerte Risberget 350 år siden den skogfinske innvandring
 permalink: /arrangementer/350-arsjubileum/
 nav:
   label: 350-årsjubileet i 2017
-  parent: /arrangementer/
   order: 6
 breadcrumbs:
   - label: Arrangementer

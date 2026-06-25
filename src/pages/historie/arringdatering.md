@@ -5,7 +5,6 @@ description: Prosjektet for dendrokronologisk datering av eldre tømmerbygninger
 permalink: /historie/arringdatering/
 nav:
   label: Årringdatering
-  parent: /historie/
   order: 4
 breadcrumbs:
   - label: Historie og kultur

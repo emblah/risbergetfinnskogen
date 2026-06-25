@@ -5,7 +5,6 @@ description: Om skogfinnenes innvandring, svedjebruk og byggeskikk på Finnskoge
 introduction: Innvandrerne fra Savolax og Tavastland slo seg ned i skogområdene i Sverige og Norge og satte varige spor etter seg på Finnskogen.
 permalink: /historie/skogfinner/
 nav:
-  parent: /historie/
   order: 1
 breadcrumbs:
   - label: Historie og kultur

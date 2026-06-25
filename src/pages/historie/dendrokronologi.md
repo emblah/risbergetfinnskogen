@@ -6,7 +6,6 @@ introduction: Onsdag 7. mai 2025 startet prøvetakingen for å aldersbestemme de
 permalink: /historie/dendrokronologi/
 nav:
   label: Dendrokronologi
-  parent: /historie/
   order: 5
 breadcrumbs:
   - label: Historie og kultur

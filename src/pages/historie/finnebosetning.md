@@ -6,7 +6,6 @@ introduction: Finnebosetning i Risberget og Puranenslekta på garden Nyborg fram
 permalink: /historie/finnebosetning/
 nav:
   label: Finnebosetning
-  parent: /historie/
   order: 2
 breadcrumbs:
   - label: Historie og kultur

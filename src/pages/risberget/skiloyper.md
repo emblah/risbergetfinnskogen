@@ -6,7 +6,6 @@ introduction: Risberget Idrettslag har opparbeidet flere sløyfer med preparerte
 permalink: /risberget/skiloyper/
 nav:
   label: Skiløyper
-  parent: /risberget/
   order: 4
 breadcrumbs:
   - label: Om Risberget
