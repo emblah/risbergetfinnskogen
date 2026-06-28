@@ -135,6 +135,14 @@ ol {
   color: white;
 }
 
+.sidebar-brand-subtitle {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+}
+
 .menu-button {
   display: none;
   padding: 0.45rem 0.7rem;
