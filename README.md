@@ -34,7 +34,7 @@ manually only when you want to check the production output before committing.
 
 Commit and push changes and the GitHub page will be updated in a few minutes.
 
-See the live page at https://emblah.github.io/risbergetfinnskogen/.
+See the live page at https://risbergetkulturhistorie.no.
 
 ## Help
 

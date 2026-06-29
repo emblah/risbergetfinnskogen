@@ -335,6 +335,37 @@ root-relative URL and include the file type in visible text when useful:
 If a document is presented as page images, follow the existing
 `arsmoteprotokoller` pages and use the `document-image` class.
 
+## Email
+
+For the contact email account (kontakt@risbergetkulturhistorie.no), Gmail can be used to read and send emails. 
+Under the hood, the emails are routed like described below.
+
+### Incoming
+
+Incoming emails are forwarded through ImprovMX from kontakt@risbergetkulturhistorie.no to risbergetkulturhistorie@gmail.com.
+
+```mermaid
+flowchart LR
+    A["Sender's mail client"] --> B["kontakt@risbergetkulturhistorie.no"]
+    B --> C["ImprovMX"]
+    C --> D["risbergetkulturhistorie@gmail.com"]
+```
+
+### Outgoing
+
+Emails sent from the Gmail client are from kontakt@risbergetkulturhistorie.no by default. The emails go through Brevo and then to the recipient.
+
+```mermaid
+flowchart LR
+    A[Gmail client] --> B[Brevo]
+    B --> C[Recipient]
+```
+
+### Troubleshooting
+
+- Incoming email? Check ImprovMX logs at https://app.improvmx.com/domains/risbergetkulturhistorie.no/logs (also check if DNS settings are properly configured)
+- Ougoing email? Check Brevo logs at https://app.brevo.com/transactional/email/logs (also check if DNS settings are properly configured)
+
 ## Completion checklist
 
 - Content is under `src/`, not `docs/`.
